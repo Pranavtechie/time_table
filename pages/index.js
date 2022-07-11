@@ -69,7 +69,7 @@ export default function GetCredentials() {
                     placeholder="21BAI0000"
                     className="input input-bordered"
                     value={username}
-                    onChange={(e) => setUsername(e.target.value)}
+                    onChange={(e) => setUsername(e.target.value.toUpperCase())}
                   />
                 </div>
                 <div className="form-control">
